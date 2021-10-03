@@ -91,7 +91,7 @@ class PageHandler:
         firefox_options = FirefoxOptions()
 
         # Adding a specific user agent
-        firefox_options.add_argument("user-agent=fri-ieps-kslk")
+        firefox_options.add_argument("user-agent=web-crawler")
         firefox_options.add_argument("--headless")
 
         print(f"[PageHandler] Retrieving web page URL '{self.page_url}'")
