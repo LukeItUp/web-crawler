@@ -1,0 +1,5 @@
+venv/
+database/target/
+app/__pycache__/
+geckodriver.log
+log/

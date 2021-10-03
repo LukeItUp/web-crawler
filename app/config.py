@@ -1,5 +1,5 @@
 class Config:
-    SEED = False
+    SEED = True
     SEED_PATH = 'seed.txt'
     WORKERS = 6
     LOG_PATH = 'log'

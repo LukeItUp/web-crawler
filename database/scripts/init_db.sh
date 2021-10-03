@@ -1,8 +1,8 @@
 #!/bin/bash
 
 echo "—> Stopping db container"
-docker stop wier2021_db_1
-docker rm wier2021_db_1
+docker stop web-crawler_db_1
+docker rm web-crawler_db_1
 
 echo "—> Removing db target data"
 rm -r ./database/target
